@@ -2,6 +2,8 @@
 
 This shows how to build a Counter in Flutter using the Bloc library.
 
+![img](image/flutter_counter.gif)
+
 Key Topics
     Observe state changes with BlocObserver.
     BlocProvider, Flutter widget which provides a bloc to its children.
