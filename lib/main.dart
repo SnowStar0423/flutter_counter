@@ -7,8 +7,5 @@ import 'counter/cubit/counter_cubit.dart';
 
 Future<void> main() async {
   Bloc.observer = const CounterObserver();
-  CounterCubit(0)
-    ..increment()
-    ..close();
   runApp(const CounterApp());
 }
