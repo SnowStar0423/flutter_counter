@@ -14,4 +14,11 @@ class CounterObserver extends BlocObserver {
     // ignore: avoid_print
     print('${bloc.runtimeType} $change');
   }
+
+  @override
+  void onError(BlocBase bloc, Object error, StackTrace stackTrace) {
+    // TODO: implement onError
+    print('${bloc.runtimeType}, $error, $stackTrace');
+    super.onError(bloc, error, stackTrace);
+  }
 }
